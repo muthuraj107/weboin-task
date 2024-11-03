@@ -1,0 +1,285 @@
+.home-content{
+    background: linear-gradient(to bottom, #17150f,#000);
+}
+
+.display >div{
+   padding-top: 3rem;
+}
+.display{
+   padding: 0 3rem;
+   text-align: center;
+
+}
+.display h2{
+    margin-top: 1.5rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 1.25;
+    font-weight: 700;
+    color: rgb(248 250 252);
+}
+.img-card{
+    padding: 1rem;
+}
+img{
+    height: auto; 
+    max-width: 100%;
+    display: block;
+}
+.img-card img{
+    width: 10rem;
+    
+}
+.display .display-img{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+.btn-1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    width: 9rem;
+    border-radius: 9999px;
+    background-color: rgb(201 253 2);
+    padding: 0.22rem 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(0 0 0 );
+}
+
+.main-content{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.main-content >div{
+    max-width: 80rem;
+
+    margin: 0 auto;
+    padding:0 2rem;
+}
+.main-content .main-lead{
+    margin:0 auto;
+    max-width: 36rem;
+    text-align: center;
+}
+.main-content .main-lead p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(125 211 252);
+}
+.main-content .main-lead h2{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: rgb(248 250 252 );
+}
+.main-icons{
+    margin-top: 5rem;
+    display: grid;
+    align-items: center;
+    gap: 2.5rem 1rem;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+}
+.icons{
+    display: flex;
+    align-items: flex-start;
+}
+.main-icons .icons img{
+    width: 2.25rem;
+}
+.icons .icon-content{
+    margin-left: 1.25rem;
+}
+.icon-content h3{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(248 250 252);
+}
+.icon-content p{
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(203 213 225);
+}
+.icon1,.icon2{
+    margin:2rem 0 ;
+}
+.icon-img{
+    width: 100%;
+    border-radius: 0.5rem;
+   
+}
+.details{
+    padding-bottom: 8rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.details>div{
+    max-width: 80rem;
+margin: 0 2rem;
+}
+.details-content{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+    gap: 2rem;
+    padding-top: 6rem;
+}
+.details-lead{
+    grid-column: span 6 / span 6;
+        display: flex;
+        align-items: center;
+        text-align: left;
+}
+.details-lead >div h1{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: white;
+}
+.details-lead >div h1 p:nth-child(1){
+    display: block;
+}
+.details-lead >div h1 p:nth-child(2){
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+}
+.details-lead >div h1 span{
+    display: block;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+}
+.details-side{
+    margin-top: 3rem;
+}
+.details-side >p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgb(243 244 246 )
+}
+.details-card{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    gap: 2rem;
+}
+.card-head{
+    margin-bottom: 0.75rem;
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: rgb(201 253 2);
+    padding: 0.125rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: rgb(0 0 0);
+}
+.card >div  p{
+    margin-left: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    color: rgb(255 255 255);
+}
+@media (max-width:768px){
+.display h2{
+    font-size: 2.25rem;
+        line-height: 2.5rem;
+}
+.display .display-img{
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+}
+.main-content{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.main-content>div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.main-content .main-lead h2{
+    font-size: 1.875rem;
+    line-height: 1.25;
+}
+.main-content .main-icons{
+    margin-top: 3rem;
+}
+.main-icons{
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+
+}
+.details>div{
+ margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.details-lead{
+    text-align: center;
+}
+.details-lead >div h1{
+    font-size: 1.875rem;
+    line-height: 1.25;
+}
+.details-lead >div h1 span{
+    font-size: 1.875rem;
+    line-height: 1.25;
+}
+.details-lead >div h1 p:nth-child(2){
+    font-size: 1.875rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+.details-side{
+    margin-top: 4rem;
+}.details-side p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.details-card{gap: 1.5rem;}
+.card >div p{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.details-content{
+display: flex;
+flex-direction: column;
+}
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width:600px){
+    .card >div{
+    flex-shrink: 0;
+    }
+}
+@media (min-width: 768px) {
+    .details-lead {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 42rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .details-side{
+        grid-column: span 5 / span 5;
+    }
+}

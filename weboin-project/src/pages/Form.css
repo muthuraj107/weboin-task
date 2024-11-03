@@ -1,0 +1,111 @@
+.form-lead{
+    background-color: #000;
+    padding: 1.5rem;
+
+}
+.form-lead >div{
+    padding: 2rem  1rem;
+}
+.form-lead > div form{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+.form h1{
+    color: rgb(201 253 2);
+    margin-top: 2rem;
+    font-weight:900;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.form-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.list
+{
+    margin-bottom: 1.5rem;
+    padding:0 1rem;
+    width: 100%;
+
+}
+.list-item{
+    width: 90%;
+}
+.list-item label{
+    color: rgb(201 253 2);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 900;
+    display: block;
+    margin-bottom: .5rem;
+}
+.list-item input,select{
+    padding:1.7rem 1.3rem;
+    background-color: rgb(243 244 246);
+    border-radius: .5rem;
+    border-color: rgb(75 85 99);
+    border-bottom-width: 1px;
+    width: 100%;
+}
+select{
+    width: 106%;
+}
+input,select,button{
+    margin: 0;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6rem;
+    margin-top: 30px;
+
+
+}
+.submit button{
+    cursor: pointer;
+    border:  none;
+background: transparent;
+color: white;
+padding: 0.7rem 1.5rem ;
+outline: 2px solid white;
+border-radius: 2222px;
+font-weight: 500;
+ &:hover{
+background-color: rgb(201 253 2);
+}
+}
+.user-info{
+    padding: 2rem;
+background-color: #000;
+}
+.user-info >div{
+    display:  grid;
+    gap: 1.8rem;
+
+}
+@media (min-width:768px) {
+    .list{
+        width: 46%;
+    }
+    .user-info > div {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }   
+}
+@media (max-width:768px){
+    .user-info >div{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+@media (min-width: 1024px) {
+    .user-info > div {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+

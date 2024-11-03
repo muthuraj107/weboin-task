@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    tab-size: 4;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+button{
+  cursor: pointer;
+}
+.btn{
+  display: inline-block;
+    border-radius: 9999px;
+    background-color: rgb(250 204 21 );
+    padding: 1rem 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(0 0 0 );
+}
+a,h1,h2,h3,h4,h5,p,pre{
+  margin: 0;
+}
+.clr{
+  clear: both;
+}
