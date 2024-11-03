@@ -11,6 +11,7 @@ import { img } from "./img";
 export default function Home() {
   const [data, setData] = useState([]);
   const url = "https://weboin-task.onrender.com";
+  
   const studentLendth = data?.length;
   const calculateStatusCounts = (studentsArray) => {
     return studentsArray.reduce(
